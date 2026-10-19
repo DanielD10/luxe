@@ -1,0 +1,52 @@
+{
+ "https://unsplash.com/s/photos/serengeti?license=free": {
+  "title": "Making sure you're not a bot!",
+  "imgs": [
+   {
+    "src": "https://unsplash.com/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=v1.26.2+dirty",
+    "srcset": "",
+    "alt": ""
+   },
+   {
+    "src": "https://unsplash.com/.within.website/x/cmd/anubis/static/img/happy.webp?cacheBuster=v1.26.2+dirty",
+    "srcset": "",
+    "alt": ""
+   }
+  ],
+  "links": [
+   "https://anubis.techaro.lol/docs/admin/botstopper",
+   "https://techaro.lol",
+   "https://help.unsplash.com/",
+   "mailto:support@unsplash.com",
+   "/.within.website/x/cmd/anubis/api/imprint"
+  ],
+  "metaDesc": "",
+  "bodyText": "Making sure you're not a bot!\n\nCalculating...\nDifficulty: 16, Speed: 323.609kH/s\n\nProtected by BotStopper From Techaro. Made with \u2764\ufe0f in \ud83c\udde8\ud83c\udde6.\n\nUnsplash | Help Center | support@unsplash.com-- Imprint",
+  "status": 401
+ },
+ "https://unsplash.com/photos/positano-cliffside-houses-in-italy-z0L0mo__9bg": {
+  "title": "Making sure you're not a bot!",
+  "imgs": [
+   {
+    "src": "https://unsplash.com/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=v1.26.2+dirty",
+    "srcset": "",
+    "alt": ""
+   },
+   {
+    "src": "https://unsplash.com/.within.website/x/cmd/anubis/static/img/happy.webp?cacheBuster=v1.26.2+dirty",
+    "srcset": "",
+    "alt": ""
+   }
+  ],
+  "links": [
+   "https://anubis.techaro.lol/docs/admin/botstopper",
+   "https://techaro.lol",
+   "https://help.unsplash.com/",
+   "mailto:support@unsplash.com",
+   "/.within.website/x/cmd/anubis/api/imprint"
+  ],
+  "metaDesc": "",
+  "bodyText": "Making sure you're not a bot!\n\nCalculating...\nDifficulty: 16, Speed: 312.018kH/s\n\nProtected by BotStopper From Techaro. Made with \u2764\ufe0f in \ud83c\udde8\ud83c\udde6.\n\nUnsplash | Help Center | support@unsplash.com-- Imprint",
+  "status": 401
+ }
+}
