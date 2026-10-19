@@ -9,7 +9,10 @@ async def main():
         for url in ["https://unsplash.com/s/photos/serengeti?license=free", "https://unsplash.com/photos/positano-cliffside-houses-in-italy-z0L0mo__9bg"]:
             pg = await ctx.new_page()
             r = await pg.goto(url, wait_until="domcontentloaded", timeout=45000)
-            await pg.wait_for_timeout(3000)
+            for _ in range(60):
+                await pg.wait_for_timeout(2000)
+                if "not a bot" not in (await pg.title()):
+                    break
             await pg.mouse.wheel(0, 2000); await pg.wait_for_timeout(1500)
             info = await pg.evaluate("""() => ({
               title: document.title,
