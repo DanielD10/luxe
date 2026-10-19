@@ -40,7 +40,7 @@ export default function HeroRotator({ slides, children, intro }: { slides: CardD
             <div onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
               <Link className="hero-cap" href={`/destinations/${cur.slug}`}>
                 <b>{cur.name}</b>
-                {cur.country.toUpperCase()}
+                {cur.country !== cur.name ? cur.country.toUpperCase() : null}
               </Link>
               <div className="dots" role="group" aria-label="Featured places">
                 {slides.map((s, k) => (
