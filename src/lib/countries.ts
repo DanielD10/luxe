@@ -228,3 +228,15 @@ export const countries: Record<string, Country> = {
     entry: "No visa for tourist stays up to four months.",
   },
 };
+
+/** One-line visa summary for comparison tables. */
+export function visaShort(key: string): string {
+  const e = countries[key]?.entry ?? "";
+  if (/^Domestic/.test(e)) return "Domestic";
+  if (/No visa for stays up to 90 days in any 180/.test(e)) return "No visa (Schengen)";
+  if (/ETA|eTA|NZeTA|Travel Authori[sz]ation/.test(e)) return "Online authorization";
+  if (/visa on arrival/i.test(e) && /free/i.test(e)) return "Free on arrival";
+  if (/Visa required|visa \(or e-VOA|visa on arrival \(or|Visa required since/i.test(e)) return "Visa needed";
+  if (/^No visa|Passport required/.test(e)) return "No visa";
+  return "Check before booking";
+}

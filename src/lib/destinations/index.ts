@@ -49,12 +49,12 @@ export const MONTHS_LONG = [
 
 export type Season = "best" | "good" | "off" | "closed";
 
-export function seasonOf(d: Destination, month: number): Season {
+export function seasonOf(d: Pick<Destination, "months">, month: number): Season {
   const c = d.months[month];
   return c === "2" ? "best" : c === "1" ? "good" : c === "x" ? "closed" : "off";
 }
 
-export function bestMonths(d: Destination): number[] {
+export function bestMonths(d: Pick<Destination, "months">): number[] {
   return [...d.months].flatMap((c, i) => (c === "2" ? [i] : []));
 }
 

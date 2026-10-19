@@ -1,4 +1,4 @@
-import type { Destination } from "./types";
+import type { Gateway } from "./types";
 
 /**
  * Door-to-door estimates from US home airports.
@@ -47,7 +47,7 @@ const NONSTOP_MAX_KM = 13_500;
 
 export type DoorToDoor = { hours: number; connections: number; flightKm: number };
 
-export function doorToDoor(d: Destination, originCode: string): DoorToDoor {
+export function doorToDoor(d: { gateway: Gateway }, originCode: string): DoorToDoor {
   const o = getOrigin(originCode);
   const g = d.gateway;
   const dist = km(o.lat, o.lon, g.lat, g.lon);
