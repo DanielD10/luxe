@@ -25,7 +25,7 @@ fails the build instead of shipping a broken page.
 - [ ] **Business details**: `NEXT_PUBLIC_CONTACT_EMAIL`, `NEXT_PUBLIC_LEGAL_NAME`, `NEXT_PUBLIC_HOST_AGENCY`.
 - [ ] **Seller of Travel**: if you sell to residents of California, Florida, Washington or Hawaii, check whether you need to register, and put the number in `NEXT_PUBLIC_SELLER_OF_TRAVEL`.
 - [ ] **Legal pages**: `/privacy` and `/terms` are drafts that match what the site does. Have a lawyer review them.
-- [ ] **Photos**: every destination with `named: false` on its first photo uses Unsplash's top-ranked free result for that place, not a photo whose caption names it. Look at those pages once (list below) and swap any that aren't right.
+- [ ] **Photos**: 50 of the 113 photos are marked `named: false`. Unsplash's caption doesn't name the place, so they were picked from search results for it. Start with the 19 hero photos below (they show on cards, heroes and link previews), then the 31 gallery shots (`grep -n "false)" src/lib/destinations/*.ts`). Swap any that aren't right. A photo that fails to load shows an empty frame, not a broken image.
 - [ ] **Hotels**: each destination lists real hotels as recommendations. Confirm your host agency has them as partners (for the perks) before you promote them.
 - [ ] **Service promise**: the copy promises a reply within one business day. Change it in `src/lib/content.ts` and the pages if that's not realistic.
 - [ ] **Domain**: add it in Vercel, then set `NEXT_PUBLIC_SITE_URL`.
