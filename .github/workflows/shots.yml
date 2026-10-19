@@ -1,0 +1,32 @@
+name: site-shots
+on:
+  push:
+    branches: [photo-check]
+    paths: ["photo-check/shots.py"]
+permissions:
+  contents: write
+jobs:
+  shots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: site
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci && npm run build
+        working-directory: site
+      - run: (npx next start -p 3000 > /tmp/next.log 2>&1 &) && sleep 8 && curl -sf http://localhost:3000/api/health
+        working-directory: site
+      - run: pip install playwright && python -m playwright install --with-deps chromium
+      - run: mkdir -p photo-check/shots && python photo-check/shots.py
+      - run: |
+          git config user.name "photo-check"
+          git config user.email "photo-check@users.noreply.github.com"
+          git add -A photo-check/shots
+          git commit -m "site shots" || true
+          git pull --rebase -q
+          git push
