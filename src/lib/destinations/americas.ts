@@ -25,8 +25,9 @@ export const americas: Destination[] = [
     band: 2,
     nights: 4,
     photos: [
-      p("photo-1494783435443-c15feee0a80a", "person-walking-in-distance-of-mountain-HNOaMthcq0w", "Diego Jimenez", "A lone walker below a desert mountain", false),
-      p("photo-1648498015611-4e51d7d3f74a", "a-view-of-a-mountain-range-from-a-high-point-of-view-xGTGUDQDTIA", "Daniel Arroyo", "Desert mountain range seen from above", false),
+      p("photo-1587661031836-50b3734995ed", "brown-and-white-mountain-under-blue-sky-during-daytime-PM6bqFK5z-s", "Jônatas Tinoco", "Licancabur volcano above the Atacama Desert", true),
+      p("photo-1443479579455-1860f114bf77", "animal-standing-near-body-of-water-and-mountains-Fma1wE_zIf8", "Paula Porto", "A vicuña by a high-altitude lagoon in the Atacama", true),
+      p("photo-1540574223031-9322520d58e2", "brown-grass-on-brown-soil-during-day-time-612hZnDoDE4", "Kurt Cotoaga", "Steam rising from the El Tatio geysers at dawn", true),
     ],
   },
   {
@@ -103,8 +104,9 @@ export const americas: Destination[] = [
     band: 3,
     nights: 6,
     photos: [
-      p("photo-1595517930215-d2778a56ac93", "sea-lion-on-white-sand-during-daytime-w55TgHidHoE", "Amy Perez", "A sea lion on white sand", false),
-      p("photo-1503301360699-4f60cf292ec8", "yellow-iguana-on-rocks-during-daytime-qOmxP7W8svM", "Simon", "A yellow land iguana on rocks", false),
+      p("photo-1706957614198-8d2e5f0ed6ea", "an-island-with-a-sandy-beach-and-blue-water-LJIjXgutX4g", "Heidi Bruce", "Pinnacle Rock and twin beaches on Bartolomé, Galápagos", true),
+      p("photo-1503301360699-4f60cf292ec8", "yellow-iguana-on-rocks-during-daytime-qOmxP7W8svM", "Simon", "A Galápagos land iguana on lava rock", true),
+      p("photo-1523949543713-a9731aa90d72", "gray-and-white-bird-perched-on-rock-formation-Wd9fzw-Gztc", "Andy Brunner", "A blue-footed booby on a rock", true),
     ],
   },
   {
@@ -129,8 +131,9 @@ export const americas: Destination[] = [
     band: 2,
     nights: 4,
     photos: [
-      p("photo-1638552713889-2d678079d441", "a-stone-structure-on-a-rocky-outcrop-near-the-ocean-Waus61fuJl0", "Jonas Lang", "Stone ruins on a rocky point above the sea", false),
-      p("photo-1504814532849-cff240bbc503", "aerial-photography-of-beach-shore-during-daytime-ioy3bN5Irew", "Spencer Watson", "Aerial view of the beach shore", false),
+      p("photo-1638552713889-2d678079d441", "a-stone-structure-on-a-rocky-outcrop-near-the-ocean-Waus61fuJl0", "Jonas Lang", "The Mayan ruins of Tulum on a rocky point above the sea", true),
+      p("photo-1504814532849-cff240bbc503", "aerial-photography-of-beach-shore-during-daytime-ioy3bN5Irew", "Spencer Watson", "Aerial view of Tulum's beach", true),
+      p("photo-1605216663800-d563ef404eef", "green-palm-tree-near-body-of-water-during-daytime-zvUy4_sBAuM", "Anna Sullivan", "The beach below the ruins at Tulum", true),
     ],
   },
   {
@@ -179,8 +182,8 @@ export const americas: Destination[] = [
     band: 2,
     nights: 6,
     photos: [
-      p("photo-1745208746272-8d3b979d5f92", "a-majestic-volcano-rises-above-the-lush-forest-ej_L8rJEjJg", "Abhi Verma", "A volcano above the forest", false),
-      p("photo-1684383311007-7baa94be7951", "a-very-tall-mountain-surrounded-by-lush-green-trees-dRl8jpI3kls", "Owen Hills-Klaus", "A tall volcano surrounded by green forest", false),
+      p("photo-1745208746272-8d3b979d5f92", "a-majestic-volcano-rises-above-the-lush-forest-ej_L8rJEjJg", "Abhi Verma", "Arenal Volcano above the forest", true),
+      p("photo-1639417443882-8d710bccf8b2", "a-view-of-a-mountain-with-a-cloud-in-the-sky-IPa-v6Bir1E", "Rikin Katyal", "Arenal Volcano framed by rainforest", true),
     ],
   },
   {
@@ -206,7 +209,8 @@ export const americas: Destination[] = [
     nights: 3,
     photos: [
       p("photo-1659402160890-d35f987c7c29", "a-large-dam-with-a-hill-in-the-background-with-bixby-creek-bridge-in-the-background-V5g6oZ1uu7U", "John D", "Bixby Creek Bridge on the Big Sur coast", true),
-      p("photo-1699031153161-b719847e2607", "a-sandy-beach-next-to-a-rocky-cliff-sqHBRY7sF1o", "Jacob Padilla", "A sandy beach below a rocky cliff", false),
+      p("photo-1489212855151-30b04f553971", "aerial-view-of-cliff-near-body-of-water-06Vp5xyhl-8", "Denys Nevozhai", "McWay Falls dropping onto the beach at Big Sur", true),
+      p("photo-1446630073557-fca43d580fbe", "birds-eye-photography-of-road-near-ocean-FuxRM_jOFHY", "Iris Papillon", "Highway 1 along the Big Sur coast at golden hour", true),
     ],
   },
   {
@@ -232,8 +236,9 @@ export const americas: Destination[] = [
     band: 2,
     nights: 3,
     photos: [
-      p("photo-1571113606406-f3ca1c36e7e7", "a-vineyard-with-rows-of-vines-and-a-mountain-in-the-background-MF2KORFe1OE", "Daniel Salgado", "Rows of vines with a mountain behind", false),
-      p("photo-1662516607914-03177b7c92ca", "rows-of-grape-vines-in-a-vineyard-GJdp0dOkZXc", "Rachel Del Rosso", "Rows of grape vines in a vineyard", false),
+      p("photo-1656873592841-8ae63d15be24", "rows-of-plants-in-a-field-fxeLTfIhtj4", "Lisha Riabinina", "Vineyard rows and cypress trees in Napa Valley", true),
+      p("photo-1692369202752-9d0e93720fa2", "a-train-traveling-through-a-lush-green-countryside-mjmcJPaxwT8", "Lumin Osity", "The Napa Valley Wine Train passing vineyards", true),
+      p("photo-1545158067-9d60031ab7f0", "hot-air-balloon-on-under-blue-sky-during-daytime-__EeLCGc_po", "Bel R", "A hot-air balloon over vineyards at dawn in Napa", true),
     ],
   },
   {
@@ -283,7 +288,8 @@ export const americas: Destination[] = [
     nights: 6,
     photos: [
       p("photo-1542259009477-d625272157b7", "tropical-beach-at-sunset-in-maui-7782WXBriyM", "Ganapathy Kumar", "A tropical beach at sunset in Maui", true),
-      p("photo-1678156913491-d9a6b5f33db1", "a-beach-with-palm-trees-and-a-mountain-in-the-background-ngRNC_h2G8E", "Luke Scarpino", "A beach with palms and a mountain behind", false),
+      p("photo-1678156913491-d9a6b5f33db1", "a-beach-with-palm-trees-and-a-mountain-in-the-background-ngRNC_h2G8E", "Luke Scarpino", "Palms on the Maui shore with the West Maui Mountains behind", true),
+      p("photo-1491597779497-038f35d6beb2", "body-of-water-under-white-cloudy-sky-during-daytime-photo-DSpC6QfjaWA", "Farid Askerov", "Molokini Crater off the coast of Maui", true),
     ],
   },
   {
@@ -333,8 +339,9 @@ export const americas: Destination[] = [
     band: 3,
     nights: 5,
     photos: [
-      p("photo-1514130546524-5da6eaa36b72", "aerial-view-of-body-of-water-VyXhQpX9VG8", "Romello Williams", "Aerial view of turquoise water", false),
-      p("photo-1514130667032-770bbfe7b7b2", "birds-eye-photography-of-shoreline-_ftxPl9sAk0", "Romello Williams", "Bird's-eye view of the shoreline", false),
+      p("photo-1790271975349-edf13b47a841", "tropical-island-with-turquoise-water-SLabFra4cnY", "Rosemary Media", "A narrow cay in turquoise water, Turks and Caicos", true),
+      p("photo-1536276214783-1ae17228588a", "aerial-photo-of-beach-OfI1z5DzIOc", "Keaton Nye", "Aerial view of a white-sand beach in Turks and Caicos", true),
+      p("photo-1597675058833-5e3167a9bf5c", "white-boats-on-sea-under-cloudy-sky-during-daytime-3X-hHOYQ07I", "Gray Matter", "Boats moored off a long beach in Turks and Caicos", true),
     ],
   },
   {
@@ -360,8 +367,9 @@ export const americas: Destination[] = [
     band: 4,
     nights: 5,
     photos: [
-      p("photo-1723842161736-647233a1a8a1", "the-sun-is-setting-over-a-harbor-with-boats-in-the-water-FDi6kjq10SM", "Natasha", "Sunset over a harbor with boats", false),
-      p("photo-1590083948592-a5a1f0310d0e", "people-on-beach-during-daytime-IZAssWgE7gk", "Simone Mascellari", "People on a beach during the day", false),
+      p("photo-1723842161736-647233a1a8a1", "the-sun-is-setting-over-a-harbor-with-boats-in-the-water-FDi6kjq10SM", "Natasha", "Gustavia harbor at sunset, St. Barts", true),
+      p("photo-1590083948592-a5a1f0310d0e", "people-on-beach-during-daytime-IZAssWgE7gk", "Simone Mascellari", "A cove beach below a green headland, St. Barts", true),
+      p("photo-1759340875580-0806e4f898d8", "man-photographs-small-airplane-landing-on-runway-9-MxzlVx9Qg", "Loris Boulinguez", "A small plane landing at St. Barts airport", true),
     ],
   },
   {
@@ -387,7 +395,8 @@ export const americas: Destination[] = [
     nights: 4,
     photos: [
       p("photo-1534943441045-1009d7cb0bb9", "colonial-street-and-church-in-cartagena-GcHar4P8V_Q", "Ricardo Gomez Angel", "A colonial street and church tower in Cartagena, Colombia", true),
-      p("photo-1780403266607-ea014a351477", "historic-street-with-balconies-a-yellow-car-and-a-pedestrian-kKcGwEM2IG0", "Zane Bolen", "Historic street with balconies", false),
+      p("photo-1715503486480-4cc23bb61a5e", "a-tall-clock-tower-towering-over-a-city-RIDDx9L9P1w", "Jimmy Woo", "Cartagena Cathedral's dome above wooden balconies", true),
+      p("photo-1715503486591-39e62f58a7b3", "a-row-of-colorful-buildings-with-flowers-growing-on-the-balconies-u1KDpj425VM", "Jimmy Woo", "Bougainvillea on colonial balconies in the walled city", true),
     ],
   },
 ];

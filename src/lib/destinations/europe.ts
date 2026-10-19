@@ -82,8 +82,8 @@ export const europe: Destination[] = [
     nights: 4,
     photos: [
       p("photo-1664433451451-11337deef597", "a-small-island-with-villa-del-balbianello-on-it-32oHXq6phvA", "Stanislav Gulei", "Villa del Balbianello on Lake Como", true),
-      p("photo-1777994404844-a7da5d98a58d", "coastal-village-with-boats-on-the-water-and-mountains-Racqz_gECu4", "Cedric Letsch", "Lakeside village with boats and mountains", false),
-      p("photo-1780405486190-aeec4c15fe1c", "a-picturesque-town-on-a-lake-with-boats-and-mountains-X6kaLD-UjgM", "Yoanna Yordanova", "Town on a lake with boats and mountains", false),
+      p("photo-1587046377996-01aa69d0e290", "houses-near-body-of-water-under-cloudy-sky-during-daytime-3wAVvpTx-XA", "Karl Moran", "Varenna on the shore of Lake Como", true),
+      p("photo-1582150537993-71a12c56deb5", "brown-and-white-concrete-buildings-beside-body-of-water-during-daytime-Csja8O0sbOw", "Julia Solonina", "Varenna's lakefront houses at dusk", true),
     ],
   },
   {
@@ -190,8 +190,9 @@ export const europe: Destination[] = [
     band: 4,
     nights: 5,
     photos: [
-      p("photo-1740896553379-4f55d84c87f5", "a-view-of-a-small-village-on-a-cliff-overlooking-the-ocean-yehHGtMA2t4", "Artem R", "A village on a cliff above the sea", false),
-      p("photo-1602595244836-222eb752b334", "aerial-view-of-city-buildings-near-sea-during-daytime-non0cvWKEJw", "Ivan Zakharenko", "Aerial view of a seaside city", false),
+      p("photo-1740896553379-4f55d84c87f5", "a-view-of-a-small-village-on-a-cliff-overlooking-the-ocean-yehHGtMA2t4", "Artem R", "The hilltop village of Èze above the sea", false),
+      p("photo-1691084561816-a0adc4a399dd", "a-view-of-a-small-town-on-the-edge-of-a-body-of-water-9s7GB2E27Lk", "Mony Misheal", "The bay of Villefranche-sur-Mer from the hills", true),
+      p("photo-1709495543597-7d2752be8853", "a-group-of-boats-floating-on-top-of-a-body-of-water-C96CoYrOLak", "Christian Harb", "Colorful houses on the harbor at Villefranche-sur-Mer", true),
     ],
   },
   {
@@ -272,7 +273,7 @@ export const europe: Destination[] = [
     photos: [
       p("photo-1501908734255-16579c18c25f", "waterfall-cascading-over-cliff-in-iceland-IlvY3z4KVCI", "Joshua Sortino", "A waterfall pouring over a cliff in Iceland at golden hour", true),
       p("photo-1619266465172-02a857c3556d", "lava-flowing-from-fagradalsfjall-volcano-iceland-80x3QULJDN4", "Tetiana Gry", "Lava flowing from the Fagradalsfjall volcano, Iceland", true),
-      p("photo-1513883524931-aaab83bcb19b", "aerial-photography-of-waterfalls-near-mountains-at-daytime-36K5WckeU3o", "Robert Bye", "Aerial view of waterfalls and mountains", false),
+      p("photo-1621959721891-d297dfd9d6ee", "waterfalls-on-green-grass-covered-mountain-during-daytime-54Pfu4EK4pc", "Lukas Tennie", "Skógafoss waterfall between green cliffs", true),
     ],
   },
   {
@@ -298,7 +299,8 @@ export const europe: Destination[] = [
     nights: 5,
     photos: [
       p("photo-1476990789491-712b869b91a5", "winding-road-through-skye-hills-IHKBF23A_iw", "v2osk", "A winding road through hills on the Isle of Skye", true),
-      p("photo-1597202496047-8af47ddf05da", "green-and-brown-mountains-near-body-of-water-under-blue-sky-during-daytime-_1vkh7UzzIg", "Murilo Gomes", "Mountains above a loch", false),
+      p("photo-1563908865396-d51d56bfc94c", "overlooking-lake-and-mountains-egIV6BeAG6U", "Katia De Juan", "Loch Shiel and the Glenfinnan Monument", true),
+      p("photo-1589489873423-d1745278a8f4", "kilchurn-castle-ruins-on-loch-awe-3rkosR_Dgfg", "Connor Mollison", "Kilchurn Castle reflected in Loch Awe", true),
     ],
   },
   {

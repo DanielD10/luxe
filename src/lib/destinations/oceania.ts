@@ -25,8 +25,9 @@ export const oceania: Destination[] = [
     band: 4,
     nights: 6,
     photos: [
-      p("photo-1754745442968-b746b74340dd", "wooden-walkway-to-overwater-bungalows-at-sunset-z9A1a7NjDsw", "Santiago Franco", "Wooden walkway to overwater bungalows at sunset", false),
-      p("photo-1754746275135-08da47d97ba0", "palm-trees-and-bungalows-by-a-tropical-lagoon-pVf6IjgutsE", "Santiago Franco", "Palms and bungalows by a tropical lagoon", false),
+      p("photo-1580725869538-9b164c27c44f", "green-mountain-beside-body-of-water-under-blue-sky-during-daytime-SjCHKiGVWH4", "Damien Chaudet", "Mount Otemanu above overwater bungalows, Bora Bora", true),
+      p("photo-1706461168280-da6986cd91ec", "an-aerial-view-of-a-tropical-island-in-the-middle-of-the-ocean-pdjx5z2fpr0", "Fabien Bellanger", "Aerial view of Bora Bora and its lagoon", true),
+      p("photo-1662283804757-ef81acd5471e", "a-wooden-bridge-over-water-IetkxQ3CSHg", "John Ko", "A boardwalk to overwater bungalows below Mount Otemanu", true),
     ],
   },
   {
@@ -102,8 +103,9 @@ export const oceania: Destination[] = [
     band: 4,
     nights: 6,
     photos: [
-      p("photo-1654180680389-4141e2912ef6", "an-aerial-view-of-a-tropical-island-in-the-middle-of-the-ocean-fh3lVduj21c", "Colin + Meg", "Aerial view of a tropical island", false),
-      p("photo-1655719647300-5142977bfa79", "a-beach-with-blue-water-and-green-land-WZM9IcX5plw", "Max", "A beach with blue water and green hills", false),
+      p("photo-1655719647300-5142977bfa79", "a-beach-with-blue-water-and-green-land-WZM9IcX5plw", "Max", "A white sandbar off a green island in Fiji", true),
+      p("photo-1547077664-16bc77c6a523", "people-riding-boat-on-body-of-water-near-island-during-daytime-3jtm7BMsaPA", "Lili Ortiz", "A boat heading for a small island in Fiji", true),
+      p("photo-1656071855457-7bdabdd58e7e", "a-beach-with-a-hill-in-the-background-vzqXbfpzf7c", "Max", "A long beach below green hills in Fiji", true),
     ],
   },
 ];

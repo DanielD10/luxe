@@ -106,8 +106,9 @@ export const africaMe: Destination[] = [
     band: 4,
     nights: 5,
     photos: [
-      p("photo-1528275646751-ff237d1cd935", "herd-of-zebra-near-tree-Tvo1NEmfYB0", "Ray Rui", "A herd of zebra near a tree on the savanna", false),
-      p("photo-1779388762527-0d4c5d8f4a92", "two-people-with-a-safari-vehicle-under-a-serengeti-archway-M9vOJN8Tf8Q", "Samson Simon", "A safari vehicle under the Serengeti archway", true),
+      p("photo-1516026672322-bc52d61a55d5", "brown-tree-on-surrounded-by-brown-grass-during-golden-hour-60XLoOgwkfA", "Hu Chen", "An acacia at sunset on the Serengeti plains", true),
+      p("photo-1707410436230-d4b2fba910e7", "two-giraffes-walking-in-a-field-with-a-hot-air-balloon-esqhSWDzOWk", "Tanzania Wild Sky", "Giraffes and a hot-air balloon over the Serengeti", true),
+      p("photo-1564101160531-4838e8a5f4e7", "wildebeest-herd-crossing-savanna-river-1pZJqQlgpsY", "Jorge Tung", "Wildebeest crossing the Mara River in the Serengeti", true),
     ],
   },
   {
@@ -133,9 +134,9 @@ export const africaMe: Destination[] = [
     band: 4,
     nights: 4,
     photos: [
-      p("photo-1518459384564-ecfd8e80721f", "wildebeest-herd-running-on-savanna-aKcVSSDotgo", "Harshil Gudka", "A herd of wildebeest running across the savanna", false),
-      p("photo-1564101160531-4838e8a5f4e7", "wildebeest-herd-crossing-savanna-river-1pZJqQlgpsY", "Jorge Tung", "Wildebeest crossing a river", false),
-      p("photo-1519659528534-7fd733a832a0", "red-and-yellow-hot-air-balloon-over-field-with-zebras-kjOBqwMUnWw", "Sutirta Budiman", "A hot-air balloon over zebras on the plains", false),
+      p("photo-1621139261252-27d1a67449f4", "silhouette-of-trees-during-sunset-8fH4JwxbAyw", "Ahmed Galal", "Acacias and antelope at sunset in the Maasai Mara", true),
+      p("photo-1518709594023-6eab9bab7b23", "group-of-zebra-walking-on-wheat-field-Jgiv1rSIpVM", "Sutirta Budiman", "Zebras walking through tall grass in the Mara", true),
+      p("photo-1518709766631-a6a7f45921c3", "herd-of-antelopes-on-grass-field-PdiOj8kRy28", "Sutirta Budiman", "Eland on the Mara grasslands", true),
     ],
   },
   {
@@ -187,8 +188,9 @@ export const africaMe: Destination[] = [
     band: 4,
     nights: 4,
     photos: [
-      p("photo-1756903723056-ae7e64b95ca4", "elephant-wading-through-shallow-water-with-grass-uihrkX40Jx0", "Jade Plk", "An elephant wading through shallow water", false),
-      p("photo-1722645148077-a7f99c8bcef2", "an-aerial-view-of-a-river-running-through-a-lush-green-field-jk_2Ak2z3JY", "Sheila C", "Aerial view of a river through green wetlands", false),
+      p("photo-1655981653521-b1202465b180", "a-pond-with-lily-pads-and-lily-pads-ZURBFcstPbE", "Ajeet Panesar", "A mokoro gliding through lily pads in the Okavango Delta", true),
+      p("photo-1653900217156-77a588505248", "an-elephant-standing-in-a-body-of-water-H2h8MjNXEQg", "Greg Mei", "An elephant feeding among papyrus in the delta", true),
+      p("photo-1722645148077-a7f99c8bcef2", "an-aerial-view-of-a-river-running-through-a-lush-green-field-jk_2Ak2z3JY", "Sheila C", "Aerial view of channels winding through the delta", true),
     ],
   },
   {

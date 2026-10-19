@@ -21,9 +21,9 @@ export type Photo = {
   by: string;
   alt: string;
   /**
-   * true when Unsplash's own description names the place. false when the
-   * photo was the top-ranked free result for the place but its description
-   * is generic. Worth a look before launch.
+   * true when the photo's Unsplash page names the place (location, title
+   * or tags). false when it doesn't, but the image shows a landmark that
+   * can't be mistaken. Every photo was checked by eye; do the same for new ones.
    */
   named: boolean;
 };
