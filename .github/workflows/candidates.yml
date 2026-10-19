@@ -1,0 +1,21 @@
+name: photo-candidates
+on:
+  push:
+    branches: [photo-check]
+    paths: ["photo-check/queries.json"]
+permissions:
+  contents: write
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - run: python photo-check/candidates.py
+      - run: |
+          git config user.name "photo-check"
+          git config user.email "photo-check@users.noreply.github.com"
+          git add -A photo-check/cand
+          git commit -m "candidate sheets" || true
+          git pull --rebase -q
+          git push

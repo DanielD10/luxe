@@ -1,0 +1,21 @@
+[
+  {"key": "french-riviera", "q": ["french riviera", "villefranche-sur-mer", "cote d'azur"], "must": ["riviera", "azur", "nice", "cannes", "antibes", "villefranche", "menton", "eze", "èze", "tropez"]},
+  {"key": "scottish-highlands", "q": ["scottish highlands", "glencoe scotland", "isle of skye"], "must": ["highland", "glencoe", "glen coe", "skye", "torridon", "cairngorm"]},
+  {"key": "iceland", "q": ["iceland waterfall", "iceland landscape"], "must": ["iceland"]},
+  {"key": "lake-como", "q": ["lake como", "bellagio lake como", "varenna"], "must": ["como", "bellagio", "varenna", "menaggio", "tremezzo"]},
+  {"key": "serengeti", "q": ["serengeti", "serengeti national park"], "must": ["serengeti"]},
+  {"key": "masai-mara", "q": ["masai mara", "maasai mara"], "must": ["mara"]},
+  {"key": "okavango-delta", "q": ["okavango delta", "okavango", "botswana safari"], "must": ["okavango", "botswana"]},
+  {"key": "atacama", "q": ["atacama desert", "san pedro de atacama", "valle de la luna chile"], "must": ["atacama", "licancabur", "valle de la luna"]},
+  {"key": "galapagos", "q": ["galapagos", "galapagos islands"], "must": ["galapagos", "galápagos"]},
+  {"key": "tulum", "q": ["tulum", "tulum beach"], "must": ["tulum"]},
+  {"key": "costa-rica", "q": ["costa rica", "arenal volcano"], "must": ["costa rica", "arenal"]},
+  {"key": "big-sur", "q": ["big sur", "big sur coast"], "must": ["big sur"]},
+  {"key": "napa-valley", "q": ["napa valley", "napa vineyard"], "must": ["napa"]},
+  {"key": "maui", "q": ["maui", "maui hawaii"], "must": ["maui"]},
+  {"key": "turks-and-caicos", "q": ["turks and caicos", "grace bay", "providenciales"], "must": ["turks", "caicos", "providenciales", "grace bay"]},
+  {"key": "st-barts", "q": ["st barts", "saint barthelemy", "gustavia"], "must": ["barth", "barts", "gustavia"]},
+  {"key": "cartagena", "q": ["cartagena colombia", "cartagena"], "must": ["cartagena"]},
+  {"key": "bora-bora", "q": ["bora bora", "bora bora island"], "must": ["bora bora", "bora-bora", "borabora"]},
+  {"key": "fiji", "q": ["fiji", "fiji island"], "must": ["fiji"]}
+]
