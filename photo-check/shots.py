@@ -24,5 +24,8 @@ async def main():
         await m.screenshot(path="photo-check/shots/home-390.png")
         await go(m, "/destinations/napa-valley")
         await m.screenshot(path="photo-check/shots/napa-390.png")
+        await go(m, "/destinations")
+        await m.mouse.wheel(0, 900); await m.wait_for_timeout(1500)
+        await m.screenshot(path="photo-check/shots/dest-390.png")
         await b.close()
 asyncio.run(main())
