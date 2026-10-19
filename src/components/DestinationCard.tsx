@@ -58,7 +58,7 @@ export default function DestinationCard({
       </div>
       <div className="card-meta">
         <span>
-          <b className="num">~{dd.hours} h</b> from {from}
+          <b className="num">~{dd.hours}h</b> from {from}
         </span>
         <span>
           <b>{BAND_LABEL[d.band]}</b> /night

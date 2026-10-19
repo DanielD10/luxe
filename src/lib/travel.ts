@@ -87,7 +87,7 @@ export function formatAhead(h: number): string {
   if (h === 0) return "Same time";
   const n = Math.abs(h);
   const s = Number.isInteger(n) ? String(n) : n.toFixed(1);
-  return `${h > 0 ? "+" : "−"}${s} h`;
+  return `${h > 0 ? "+" : "−"}${s}h`;
 }
 
 /**

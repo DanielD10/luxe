@@ -1,5 +1,6 @@
 import type { Photo as PhotoT } from "@/lib/types";
 import { photoPage, photoSrcSet, photoUrl } from "@/lib/photos";
+import PhotoImg from "./PhotoImg";
 
 type Props = {
   photo: PhotoT;
@@ -23,8 +24,7 @@ const WIDTHS = [480, 720, 960, 1280, 1680, 2200];
 export default function Photo({ photo, sizes, ratio, priority, credit = true, className, alt }: Props) {
   return (
     <div className={`photo ${className ?? ""}`}>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
+      <PhotoImg
         src={photoUrl(photo, 1280, ratio ? { h: Math.round(1280 / ratio) } : {})}
         srcSet={photoSrcSet(photo, WIDTHS, ratio)}
         sizes={sizes}

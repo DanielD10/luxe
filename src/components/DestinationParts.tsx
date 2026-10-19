@@ -36,7 +36,7 @@ export function TripFacts({ d }: { d: Pick<Destination, "gateway" | "timezone"> 
       <div>
         <dt>Door to door</dt>
         <dd>
-          <span className="num">~{dd.hours} h</span>
+          <span className="num">~{dd.hours}h</span>
           <small>
             from{" "}
             <label className="sr-only" htmlFor="tf-origin">Flying from</label>

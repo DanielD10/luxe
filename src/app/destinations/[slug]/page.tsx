@@ -10,6 +10,7 @@ import { BAND_LABEL, bestMonths, destinations, getDestination, monthRanges } fro
 import { countries, STATE_DEPT_URL } from "@/lib/countries";
 import { toCard } from "@/lib/cards";
 import { photoUrl, photoPage } from "@/lib/photos";
+import PhotoImg from "@/components/PhotoImg";
 import { site, toursUrl } from "@/lib/site";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -67,8 +68,7 @@ export default async function DestinationPage({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section className="d-hero">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <PhotoImg
           src={photoUrl(hero, 1680)}
           srcSet={[720, 1080, 1680, 2400].map((w) => `${photoUrl(hero, w)} ${w}w`).join(", ")}
           sizes="100vw"

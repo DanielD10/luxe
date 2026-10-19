@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import type { CardData } from "@/lib/cards";
 import type { Feeling, Region } from "@/lib/types";
 import { FEELINGS, MONTHS_LONG, REGIONS } from "@/lib/destinations";
@@ -19,21 +19,33 @@ const norm = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,
  * shared or bookmarked.
  */
 export default function Browser({ items, limit, syncUrl = true }: { items: CardData[]; limit?: number; syncUrl?: boolean }) {
-  const params = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
   const origin = useOrigin();
 
-  const [q, setQ] = useState(params.get("q") ?? "");
-  const [region, setRegion] = useState<Region | "">((REGIONS as string[]).includes(params.get("region") ?? "") ? (params.get("region") as Region) : "");
-  const [feel, setFeel] = useState<Feeling | "">((FEELINGS as string[]).includes(params.get("feel") ?? "") ? (params.get("feel") as Feeling) : "");
-  const m = Number(params.get("month"));
-  const [month, setMonth] = useState<number>(Number.isInteger(m) && m >= 0 && m <= 11 && params.has("month") ? m : -1);
+  // Every destination is in the static HTML (good for search). Filters
+  // from the URL apply after load, so a shared filtered link still works.
+  const [q, setQ] = useState("");
+  const [region, setRegion] = useState<Region | "">("");
+  const [feel, setFeel] = useState<Feeling | "">("");
+  const [month, setMonth] = useState<number>(-1);
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    setQ(params.get("q") ?? "");
+    const r = params.get("region") ?? "";
+    if ((REGIONS as string[]).includes(r)) setRegion(r as Region);
+    const f = params.get("feel") ?? "";
+    if ((FEELINGS as string[]).includes(f)) setFeel(f as Feeling);
+    const m = Number(params.get("month"));
+    if (params.has("month") && Number.isInteger(m) && m >= 0 && m <= 11) setMonth(m);
+    setReady(true);
+  }, []);
   const [sort, setSort] = useState<Sort>("recommended");
   const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
-    if (!syncUrl) return;
+    if (!syncUrl || !ready) return;
     const sp = new URLSearchParams();
     if (q) sp.set("q", q);
     if (region) sp.set("region", region);
@@ -41,7 +53,7 @@ export default function Browser({ items, limit, syncUrl = true }: { items: CardD
     if (month >= 0) sp.set("month", String(month));
     const qs = sp.toString();
     router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-  }, [q, region, feel, month, syncUrl, router, pathname]);
+  }, [q, region, feel, month, syncUrl, ready, router, pathname]);
 
   const results = useMemo(() => {
     const nq = norm(q.trim());

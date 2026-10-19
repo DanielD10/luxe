@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState, type ReactNode } from "react";
 import type { CardData } from "@/lib/cards";
 import { photoPage, photoSrcSet, photoUrl } from "@/lib/photos";
+import PhotoImg from "./PhotoImg";
 
 /** Full-bleed rotating hero. The first slide loads eagerly for a fast first paint. */
 export default function HeroRotator({ slides, children, intro }: { slides: CardData[]; children: ReactNode; intro: ReactNode }) {
@@ -21,8 +22,7 @@ export default function HeroRotator({ slides, children, intro }: { slides: CardD
     <section className="hero" aria-label="Featured destinations">
       {slides.map((s, k) => (
         <div key={s.slug} className={`slide${k === i ? " on" : ""}`} aria-hidden={k !== i}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <PhotoImg
             src={photoUrl(s.photo, 1680)}
             srcSet={photoSrcSet(s.photo, [720, 1080, 1680, 2400])}
             sizes="100vw"

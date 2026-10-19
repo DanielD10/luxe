@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { useSearchParams } from "next/navigation";
 import type { CardData } from "@/lib/cards";
 import { BUDGETS, INTERESTS, OCCASIONS, validateInquiry, type InquiryErrors } from "@/lib/inquiry";
 import { MONTHS_LONG } from "@/lib/destinations";
@@ -28,7 +27,6 @@ function planText(p: Plan, place: string): string {
  * visitor's saved places.
  */
 export default function PlanForm({ cards }: { cards: CardData[] }) {
-  const params = useSearchParams();
   const saved = useSaved();
   const homeAirport = useOrigin();
   const ai = useAiEnabled();
@@ -65,6 +63,7 @@ export default function PlanForm({ cards }: { cards: CardData[] }) {
   useEffect(() => {
     if (initialized.current) return;
     initialized.current = true;
+    const params = new URLSearchParams(window.location.search);
     const d = params.get("d");
     const start = [d, ...saved].filter((s): s is string => !!s && bySlug.has(s));
     const uniq = [...new Set(start)].slice(0, 6);

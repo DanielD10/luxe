@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
 import type { CardData } from "@/lib/cards";
 import { BAND_LABEL, bestMonths, monthRanges } from "@/lib/destinations";
 import { doorToDoor, formatAhead, getOrigin, hoursAhead } from "@/lib/travel";
@@ -18,13 +17,12 @@ import { SaveHeart } from "./DestinationCard";
 export default function SavedBoard({ cards, visa }: { cards: CardData[]; visa: Record<string, string> }) {
   const saved = useSaved();
   const origin = useOrigin();
-  const params = useSearchParams();
   const bySlug = new Map(cards.map((c) => [c.slug, c]));
   const [shared, setShared] = useState<string[] | null>(null);
   const [aheads, setAheads] = useState<Record<string, number>>({});
 
   useEffect(() => {
-    const p = params.get("p");
+    const p = new URLSearchParams(window.location.search).get("p");
     if (p) {
       const list = p.split(",").filter((s) => bySlug.has(s)).slice(0, 20);
       if (list.length) setShared(list);
@@ -156,7 +154,7 @@ export default function SavedBoard({ cards, visa }: { cards: CardData[]; visa: R
                   <tr>
                     <td>Door to door</td>
                     {rows.map((r) => (
-                      <td key={r.c.slug} className={`num${r.dd.hours === minH ? " best" : ""}`}>~{r.dd.hours} h</td>
+                      <td key={r.c.slug} className={`num${r.dd.hours === minH ? " best" : ""}`}>~{r.dd.hours}h</td>
                     ))}
                   </tr>
                   <tr>
