@@ -1,0 +1,90 @@
+search 'french riviera' p1: HTTP Error 401: Unauthorized
+search 'french riviera' p2: HTTP Error 401: Unauthorized
+search 'villefranche-sur-mer' p1: HTTP Error 401: Unauthorized
+search 'villefranche-sur-mer' p2: HTTP Error 401: Unauthorized
+search "cote d'azur" p1: HTTP Error 401: Unauthorized
+search "cote d'azur" p2: HTTP Error 401: Unauthorized
+search 'scottish highlands' p1: HTTP Error 401: Unauthorized
+search 'scottish highlands' p2: HTTP Error 401: Unauthorized
+search 'glencoe scotland' p1: HTTP Error 401: Unauthorized
+search 'glencoe scotland' p2: HTTP Error 401: Unauthorized
+search 'isle of skye' p1: HTTP Error 401: Unauthorized
+search 'isle of skye' p2: HTTP Error 401: Unauthorized
+search 'iceland waterfall' p1: HTTP Error 401: Unauthorized
+search 'iceland waterfall' p2: HTTP Error 401: Unauthorized
+search 'iceland landscape' p1: HTTP Error 401: Unauthorized
+search 'iceland landscape' p2: HTTP Error 401: Unauthorized
+search 'lake como' p1: HTTP Error 401: Unauthorized
+search 'lake como' p2: HTTP Error 401: Unauthorized
+search 'bellagio lake como' p1: HTTP Error 401: Unauthorized
+search 'bellagio lake como' p2: HTTP Error 401: Unauthorized
+search 'varenna' p1: HTTP Error 401: Unauthorized
+search 'varenna' p2: HTTP Error 401: Unauthorized
+search 'serengeti' p1: HTTP Error 401: Unauthorized
+search 'serengeti' p2: HTTP Error 401: Unauthorized
+search 'serengeti national park' p1: HTTP Error 401: Unauthorized
+search 'serengeti national park' p2: HTTP Error 401: Unauthorized
+search 'masai mara' p1: HTTP Error 401: Unauthorized
+search 'masai mara' p2: HTTP Error 401: Unauthorized
+search 'maasai mara' p1: HTTP Error 401: Unauthorized
+search 'maasai mara' p2: HTTP Error 401: Unauthorized
+search 'okavango delta' p1: HTTP Error 401: Unauthorized
+search 'okavango delta' p2: HTTP Error 401: Unauthorized
+search 'okavango' p1: HTTP Error 401: Unauthorized
+search 'okavango' p2: HTTP Error 401: Unauthorized
+search 'botswana safari' p1: HTTP Error 401: Unauthorized
+search 'botswana safari' p2: HTTP Error 401: Unauthorized
+search 'atacama desert' p1: HTTP Error 401: Unauthorized
+search 'atacama desert' p2: HTTP Error 401: Unauthorized
+search 'san pedro de atacama' p1: HTTP Error 401: Unauthorized
+search 'san pedro de atacama' p2: HTTP Error 401: Unauthorized
+search 'valle de la luna chile' p1: HTTP Error 401: Unauthorized
+search 'valle de la luna chile' p2: HTTP Error 401: Unauthorized
+search 'galapagos' p1: HTTP Error 401: Unauthorized
+search 'galapagos' p2: HTTP Error 401: Unauthorized
+search 'galapagos islands' p1: HTTP Error 401: Unauthorized
+search 'galapagos islands' p2: HTTP Error 401: Unauthorized
+search 'tulum' p1: HTTP Error 401: Unauthorized
+search 'tulum' p2: HTTP Error 401: Unauthorized
+search 'tulum beach' p1: HTTP Error 401: Unauthorized
+search 'tulum beach' p2: HTTP Error 401: Unauthorized
+search 'costa rica' p1: HTTP Error 401: Unauthorized
+search 'costa rica' p2: HTTP Error 401: Unauthorized
+search 'arenal volcano' p1: HTTP Error 401: Unauthorized
+search 'arenal volcano' p2: HTTP Error 401: Unauthorized
+search 'big sur' p1: HTTP Error 401: Unauthorized
+search 'big sur' p2: HTTP Error 401: Unauthorized
+search 'big sur coast' p1: HTTP Error 401: Unauthorized
+search 'big sur coast' p2: HTTP Error 401: Unauthorized
+search 'napa valley' p1: HTTP Error 401: Unauthorized
+search 'napa valley' p2: HTTP Error 401: Unauthorized
+search 'napa vineyard' p1: HTTP Error 401: Unauthorized
+search 'napa vineyard' p2: HTTP Error 401: Unauthorized
+search 'maui' p1: HTTP Error 401: Unauthorized
+search 'maui' p2: HTTP Error 401: Unauthorized
+search 'maui hawaii' p1: HTTP Error 401: Unauthorized
+search 'maui hawaii' p2: HTTP Error 401: Unauthorized
+search 'turks and caicos' p1: HTTP Error 401: Unauthorized
+search 'turks and caicos' p2: HTTP Error 401: Unauthorized
+search 'grace bay' p1: HTTP Error 401: Unauthorized
+search 'grace bay' p2: HTTP Error 401: Unauthorized
+search 'providenciales' p1: HTTP Error 401: Unauthorized
+search 'providenciales' p2: HTTP Error 401: Unauthorized
+search 'st barts' p1: HTTP Error 401: Unauthorized
+search 'st barts' p2: HTTP Error 401: Unauthorized
+search 'saint barthelemy' p1: HTTP Error 401: Unauthorized
+search 'saint barthelemy' p2: HTTP Error 401: Unauthorized
+search 'gustavia' p1: HTTP Error 401: Unauthorized
+search 'gustavia' p2: HTTP Error 401: Unauthorized
+search 'cartagena colombia' p1: HTTP Error 401: Unauthorized
+search 'cartagena colombia' p2: HTTP Error 401: Unauthorized
+search 'cartagena' p1: HTTP Error 401: Unauthorized
+search 'cartagena' p2: HTTP Error 401: Unauthorized
+search 'bora bora' p1: HTTP Error 401: Unauthorized
+search 'bora bora' p2: HTTP Error 401: Unauthorized
+search 'bora bora island' p1: HTTP Error 401: Unauthorized
+search 'bora bora island' p2: HTTP Error 401: Unauthorized
+search 'fiji' p1: HTTP Error 401: Unauthorized
+search 'fiji' p2: HTTP Error 401: Unauthorized
+search 'fiji island' p1: HTTP Error 401: Unauthorized
+search 'fiji island' p2: HTTP Error 401: Unauthorized
