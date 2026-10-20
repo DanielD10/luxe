@@ -1,0 +1,22 @@
+name: portfolio-check
+on:
+  push:
+    branches: [photo-check]
+    paths: ["photo-check/portfolio.py"]
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install playwright && python -m playwright install --with-deps chromium
+      - run: mkdir -p photo-check/live && python photo-check/portfolio.py
+      - if: always()
+        run: |
+          git config user.name "photo-check"
+          git config user.email "photo-check@users.noreply.github.com"
+          git add -A photo-check/live
+          git commit -m "portfolio check" || true
+          git pull --rebase -q
+          git push
