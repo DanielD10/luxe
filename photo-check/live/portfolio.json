@@ -1,0 +1,33 @@
+{
+ "/luxe": [
+  307,
+  "https://luxe-six-chi.vercel.app"
+ ],
+ "/luxe/index.html": [
+  307,
+  "https://luxe-six-chi.vercel.app/"
+ ],
+ "/api/luxe/ai": [
+  404,
+  null
+ ],
+ "/work/luxe": [
+  200,
+  null
+ ],
+ "title": "LUXE \u2014 Daniel Duran",
+ "links": [
+  "https://daniel-digital-atelier.vercel.app/work/luxe#main",
+  "https://luxe-six-chi.vercel.app/",
+  "https://daniel-digital-atelier.vercel.app/work/luxe#research"
+ ],
+ "text_has_old": [],
+ "stats": [
+  "54",
+  "113",
+  "12",
+  "4",
+  "$0"
+ ],
+ "luxe_lands_on": "https://luxe-six-chi.vercel.app/"
+}
